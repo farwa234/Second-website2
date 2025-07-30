@@ -6,6 +6,7 @@ box-sizing: border-box;
 body{
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    background-color: rgba(245, 247, 250, 1);
+   overflow-x:hidden 
 ;
 }
 .main{
@@ -69,7 +70,6 @@ nav ul li a:hover{
    font-size: 60px;
    color: rgba(77, 77, 77, 1);
    font-weight: 600;
-
 }
 .frame-1 h1 span{
    font: size 2rem;
@@ -88,7 +88,6 @@ nav ul li a:hover{
   color: white;
   border-radius: 5px;
   margin-top: 10px;
-
 }
 .Hero{
    flex: 1;
@@ -98,7 +97,6 @@ nav ul li a:hover{
    width: 500px;
    height: 500px;
 }
-
 .Hero img {
 width:100%;
 max-width:500px;
@@ -114,7 +112,6 @@ height:auto;
    gap: 11.14px;
    padding-right: 100.23px;
    padding-left: 100.23px;
-
 
 }
 .clients-section h2{ 
@@ -184,7 +181,6 @@ font-size:30px ;
  color: rgba(77, 77, 77, 1);
   
 }
-
 .story-text span {
   display: inline; /* keep inline to avoid unnecessary breaks */
 }
@@ -196,7 +192,7 @@ font-size:30px ;
   margin-bottom: 20px;
 }
 .achviements {
-   background-color: rgba(245, 247, 250, 1);
+ background-color: rgba(245, 247, 250, 1);
 width: 1002.3400268554688;
 height: 202.93966674804688;
 justify-content: space-between;
@@ -249,20 +245,13 @@ gap: 20.88px;
    background-color: white;
 }
 
-
-
-
-
-
-
-
-
 .heading {
    display: flex;
    justify-content: center;
    align-items: center;
    background-color: rgba(245, 247, 250, 1);
    gap: 20px;
+   margin-bottom: 10px;
 }
 .head h1 {
    font-size: 50px;
@@ -282,6 +271,8 @@ gap: 20.88px;
 }
 .footer{
    display: flex;
+   justify-content: center;
+   align-items: center;
    background-color: rgba(38, 50, 56, 1);
    width: 1002.3400268554688;
 height: 229.21389770507812;
@@ -294,7 +285,64 @@ padding-left: 114.85px;
 
 }
 .super{
-   
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 243.6243133544922;
+height: 132.1819305419922;
+opacity: 1;
+gap: 50px;
+
+}
+.super img {
+   width:250px;
+   height:80px ;
+}
+.super p {
+   color: rgba(245, 247, 250, 1);
+}
+.super ul {
+   list-style: none;
+}
+.icons{
+   display: flex;
+   gap: 25px;
+   justify-content: center;
+}
+.icons  li a i  {
+width: 100%;
+height: 30px;
+color: rgba(245, 247, 250, 1);
+margin-bottom: 10px;
+}
+.icons li a i:hover{
+ color: rgba(76, 175, 79, 1);
+}
+.links{
+   justify-content: center;
+   align-items: center;
+   padding: 3rem;
+
+}
+.links ul {
+   list-style: none;
+}
+.links ul h4{
+   color: rgba(255, 255, 255, 1);
+   font-weight: 700;
+   font-size: 25px;
+   margin-bottom: 10px;
+}
+.links ul li {
+   margin-bottom: 10px;
+}
+.links ul li a {
+   text-decoration: none;
+   color: rgba(245, 247, 250, 1);
+}
+.links ul li a:hover{
+   color: rgba(76, 175, 79, 1);
 }
 
 
