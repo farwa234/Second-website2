@@ -191,56 +191,57 @@ font-size:30px ;
    color: rgba(77, 77, 77, 1);
   margin-bottom: 20px;
 }
-.achviements {
- background-color: rgba(245, 247, 250, 1);
-width: 1002.3400268554688;
-height: 202.93966674804688;
-justify-content: space-between;
-opacity: 1;
-padding-top: 44.55px;
-padding-right: 100.23px;
-padding-bottom: 44.55px;
-padding-left: 100.23px;
-}
-
-.frame-3{
- width: 375.87750244140625;
-height: 84.56855773925781;
-opacity: 1;
-gap: 5.57px;
+  .achivements {
+  background-color: rgba(245, 247, 250, 1);
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;               /* ✅ Center the whole section */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  flex-wrap: wrap;
 
 }
+
+.frame-3 {
+  max-width: 400px;
+  text-align: center;
+}
+
 .frame-3 h2 {
    color: rgba(77, 77, 77, 1);
    font-weight: 500;
-   gap:10px ;
+   gap:5px ;
+   font-size: 50px;
 }
 .frame-3 h2 span{
    font-size: 50px;
    color: rgba(76, 175, 79, 1);
    font-weight: 500;
-   display: block;
+   display: inline-block;
 }
 .counts{
-width: 375.87750244140625;
-height: 113.84278106689453;
-opacity: 1;
-gap: 27.84px;
+ display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .class1 {
-   width: 375.87750244140625;
-height: 43;
-opacity: 1;
-gap: 20.88px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
+
 .class3 {
-width: 375.87750244140625;
-height: 43px;
-opacity: 1;
-gap: 20.88px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
+
+
 .landing-page{
    background-color: white;
 }
@@ -248,15 +249,16 @@ gap: 20.88px;
 .heading {
    display: flex;
    justify-content: center;
-   align-items: center;
+   text-align: center;
    background-color: rgba(245, 247, 250, 1);
-   gap: 20px;
+   gap: 10px;
    margin-bottom: 10px;
 }
 .head h1 {
    font-size: 50px;
    font-weight: 700;
    color: rgba(38, 50, 56, 1);
+   margin: 20px;
 }
 .button {
   padding: 10px 20px;
@@ -265,8 +267,6 @@ gap: 20.88px;
   color: white;
   border-radius: 5px;
   justify-content: center;
-  text-align: center;
-  display: flex;
   
 }
 .footer{
