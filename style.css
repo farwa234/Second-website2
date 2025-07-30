@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto", sans-serif;
    background-color: rgba(245, 247, 250, 1);
    overflow-x:hidden 
 ;
@@ -13,7 +13,7 @@ body{
    display:flex;
    justify-content: space-between;
    align-items: center;
-   width: 1600px;
+   width:100%;
    padding: 40px 80px;
    height:70px ;
    opacity: 1; 
@@ -34,6 +34,7 @@ body{
 .navbar{
    display: flex;
    align-items: center;
+   text-align: center;
    gap: 20px;
 }
 
@@ -94,7 +95,7 @@ nav ul li a:hover{
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 500px;
+   width:100%px;
    height: 500px;
 }
 .Hero img {
@@ -164,7 +165,7 @@ font-size:30px ;
 }
 
 .frame-2 img {
-  width: 500px;
+  width: 100%;
   max-width: 1000px;
 }
 
@@ -274,7 +275,7 @@ font-size:30px ;
    justify-content: center;
    align-items: center;
    background-color: rgba(38, 50, 56, 1);
-   width: 1002.3400268554688;
+   width: 100%;
 height: 229.21389770507812;
 opacity: 1;
 gap: 87.01px;
@@ -289,7 +290,7 @@ display:flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-width: 243.6243133544922;
+width:245px;
 height: 132.1819305419922;
 opacity: 1;
 gap: 50px;
