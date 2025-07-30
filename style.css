@@ -347,6 +347,94 @@ margin-bottom: 10px;
 }
 
 
+/* ============ HAMBURGER DEFAULT ============ */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #4caf50;
+}
+
+/* ============ MEDIA QUERY ============ */
+@media (max-width: 768px) {
+
+  .main {
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .clients-logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .Feautures {
+    flex-direction: column;
+  }
+
+  .vector {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .achivements {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .links {
+    padding: 1rem;
+  }
+}
+
+
+
 
 
 
