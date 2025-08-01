@@ -228,8 +228,7 @@ font-size:30px ;
 }
 .counts{
  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
+  gap: 50px;
   justify-content: center;
 }
 .class1 {
@@ -374,8 +373,7 @@ margin-bottom: 10px;
 
   .hamburger {
     display:block;
-    margin-right:0;
-    padding: 20px;
+    margin-left:auto;
   }
 
   .navbar {
@@ -436,13 +434,14 @@ margin-bottom: 10px;
   }
 
   .footer {
-    flex-direction: row;
+    flex-direction: column;
     padding: 40px 20px;
     gap: 30px;
   }
 
   .links {
     padding: 1rem;
+    flex-direction:column;
   }
 }
 
